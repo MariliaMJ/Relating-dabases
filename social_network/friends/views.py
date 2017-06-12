@@ -5,4 +5,4 @@ from .serializers import PersonSerializer
 
 class PersonViewSet(viewsets.ModelViewSet):
     queryset = Person.objects.all()
-    serializer_class = StudentSerializer
+    serializer_class = PersonSerializer
